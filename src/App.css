@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+a svg{
+  width: 24px;
+  height: 24px;
+  transition: transform 0.3s ease;
+}
+a:hover svg{
+  transform: scale(1.2);
+}
+a[href="https://discord.com/"]:hover{
+  color: #7289da;
+}
+a[href="https://www.facebook.com/"]:hover{
+  color: #3b5998;
+}
+
+a[href="https://x.com/?lang=en"]:hover{
+  color: #1da1f2;
+}
+
+a[href="https://github.com/"]:hover{
+  color: #24292f;
+}
+
+a[href="https://dribbble.com/"]:hover{
+  color: #ea4c89; 
+}
