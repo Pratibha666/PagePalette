@@ -136,8 +136,7 @@ const Home = () => {
       className="bg-white border-gray-200 dark:bg-teal-950 dark:text-white"
       // style={{ height: "100vh" }}
     >
-      <div className="p-6 mx-6 rounded-xl flex justify-between bg-yellow-50 dark:bg-teal-900 ">
-        <div className="mx-6">{selections[selections.length - 1]?.text}</div>
+      <div className="mx-6">{selections[selections.length - 1]?.text}</div>
         <button
           className="mx-6 rounded-lg min-h-5 min-w-11"
           onClick={() => {
@@ -145,9 +144,8 @@ const Home = () => {
             rendition?.annotations.remove(selections[0]?.cfiRange, "highlight");
           }}
         >
-          <img src={close} class="size-11" alt="PagePallete Logo" />
         </button>
-      </div>
+      
 
       <div style={{ height: "80vh" }} className="m-6">
         <ReactReader
